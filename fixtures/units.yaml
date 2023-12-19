@@ -86,3 +86,52 @@
           rend: '-1'
           damage: '1'
       missile_weapons: []
+
+
+# Slaves To Darkness
+
+
+      - id: chaos_warriors
+      name: Chaos Warriors
+      grand_alliance: chaos
+      allegiance: slaves_to_darkness
+      move: 5"
+      description: 'Each model in a Chaos Warriors unit is armed with one of the following weapon options: Murderous Weapon; or Ensorcelled Halberd. All models in the unit must be armed with the same weapon option.'
+      champion: 1 model in this unit can be an Aspiring Champion. Add 1 to the Attacks characteristic of that model's melee weapons.
+      save: 3
+      bravery: 9
+      models: 10
+      points: 180
+      wounds: 2
+      abilities:
+        - name: Chaos Runeschields
+          description: 'This unit has a ward of 5+ against mortal wounds.'
+        - name: Bringers of Desolation
+          description: 'Add 1 to the Attacks characteristic of this unit's melee weapons while it is wholly within enemy territory or wholly within 12" of an objective that you do not control.'
+      keywords:
+        - CHAOS
+        - SLAVES TO DARKNESS
+        - MARK OF CHAOS
+        - MORTAL
+        - CHAOS WARRIORS
+      command_abilities: []
+        
+      magic: []
+      damage_table: []
+        
+      melee_weapons:
+        - name: Murderous Weapon
+          range: 1"
+          attacks: '2'
+          to_hit: '3+'
+          to_wound: '3+'
+          rend: '-1'
+          damage: '1'
+        - name: Ensorcelled Halberd
+          range: 2"
+          attacks: '2'
+          to_hit: '4+'
+          to_wound: '3+'
+          rend: '-1'
+          damage: '1'
+      missile_weapons: []
